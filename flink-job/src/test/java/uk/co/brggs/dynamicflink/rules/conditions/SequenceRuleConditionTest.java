@@ -1,5 +1,7 @@
 package uk.co.brggs.dynamicflink.rules.conditions;
 
+import dynamicflink.rules.conditions.SequenceEntry;
+import dynamicflink.rules.conditions.SequenceRuleCondition;
 import lombok.val;
 import org.junit.jupiter.api.Test;
 

@@ -1,5 +1,9 @@
 package uk.co.brggs.dynamicflink.control;
 
+import dynamicflink.control.ControlInput;
+import dynamicflink.control.ControlInputType;
+import dynamicflink.control.ControlOutput;
+import dynamicflink.control.ControlOutputStatus;
 import lombok.val;
 import org.apache.flink.shaded.jackson2.com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;

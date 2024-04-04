@@ -1,6 +1,7 @@
 package uk.co.brggs.dynamicflink.outputevents;
 
-import uk.co.brggs.dynamicflink.blocks.InternalEventSummary;
+import dynamicflink.blocks.InternalEventSummary;
+import dynamicflink.outputevents.EventSummary;
 import lombok.val;
 import org.junit.jupiter.api.Test;
 

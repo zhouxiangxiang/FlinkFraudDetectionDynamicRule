@@ -2,6 +2,7 @@ package uk.co.brggs.dynamicflink.events;
 
 import com.jsoniter.JsonIterator;
 import com.jsoniter.any.Any;
+import dynamicflink.events.InputEvent;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.Assert.assertEquals;

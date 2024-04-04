@@ -1,10 +1,11 @@
 package uk.co.brggs.dynamicflink.rules;
 
-import uk.co.brggs.dynamicflink.blocks.Block;
-import uk.co.brggs.dynamicflink.blocks.BlockParameterKey;
-import uk.co.brggs.dynamicflink.blocks.BlockType;
-import uk.co.brggs.dynamicflink.blocks.conditions.*;
-import uk.co.brggs.dynamicflink.rules.conditions.AllBlocksOccurredRuleCondition;
+import dynamicflink.blocks.Block;
+import dynamicflink.blocks.BlockParameterKey;
+import dynamicflink.blocks.BlockType;
+import dynamicflink.blocks.conditions.*;
+import dynamicflink.rules.Rule;
+import dynamicflink.rules.conditions.AllBlocksOccurredRuleCondition;
 import lombok.extern.slf4j.Slf4j;
 import lombok.val;
 import org.apache.flink.shaded.jackson2.com.fasterxml.jackson.databind.ObjectMapper;

@@ -1,9 +1,11 @@
 package uk.co.brggs.dynamicflink.control;
 
-import uk.co.brggs.dynamicflink.blocks.Block;
-import uk.co.brggs.dynamicflink.blocks.BlockType;
-import uk.co.brggs.dynamicflink.blocks.conditions.EqualCondition;
-import uk.co.brggs.dynamicflink.rules.Rule;
+import dynamicflink.blocks.Block;
+import dynamicflink.blocks.BlockType;
+import dynamicflink.blocks.conditions.EqualCondition;
+import dynamicflink.control.ControlInput;
+import dynamicflink.control.ControlInputType;
+import dynamicflink.rules.Rule;
 import lombok.val;
 import org.apache.flink.shaded.jackson2.com.fasterxml.jackson.core.JsonProcessingException;
 import org.apache.flink.shaded.jackson2.com.fasterxml.jackson.databind.ObjectMapper;

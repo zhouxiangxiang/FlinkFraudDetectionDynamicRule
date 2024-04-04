@@ -1,15 +1,15 @@
 package uk.co.brggs.dynamicflink.integration.shared;
 
-import uk.co.brggs.dynamicflink.DynamicFlink;
-import uk.co.brggs.dynamicflink.blocks.BlockProcessor;
-import uk.co.brggs.dynamicflink.blocks.droptozero.DropToZeroBlockProcessor;
-import uk.co.brggs.dynamicflink.blocks.simpleanomaly.SimpleAnomalyBlockProcessor;
-import uk.co.brggs.dynamicflink.blocks.singleevent.SingleEventBlockProcessor;
-import uk.co.brggs.dynamicflink.blocks.threshold.ThresholdBlockProcessor;
-import uk.co.brggs.dynamicflink.blocks.uniquethreshold.UniqueThresholdBlockProcessor;
-import uk.co.brggs.dynamicflink.control.ControlInput;
-import uk.co.brggs.dynamicflink.control.ControlOutput;
-import uk.co.brggs.dynamicflink.control.ControlOutputStatus;
+import dynamicflink.DynamicFlink;
+import dynamicflink.blocks.BlockProcessor;
+import dynamicflink.blocks.droptozero.DropToZeroBlockProcessor;
+import dynamicflink.blocks.simpleanomaly.SimpleAnomalyBlockProcessor;
+import dynamicflink.blocks.singleevent.SingleEventBlockProcessor;
+import dynamicflink.blocks.threshold.ThresholdBlockProcessor;
+import dynamicflink.blocks.uniquethreshold.UniqueThresholdBlockProcessor;
+import dynamicflink.control.ControlInput;
+import dynamicflink.control.ControlOutput;
+import dynamicflink.control.ControlOutputStatus;
 import lombok.val;
 import org.apache.flink.runtime.testutils.MiniClusterResourceConfiguration;
 import org.apache.flink.streaming.api.TimeCharacteristic;
@@ -20,7 +20,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PatternLayout;
 import org.apache.log4j.WriterAppender;
-import uk.co.brggs.dynamicflink.outputevents.OutputEvent;
+import dynamicflink.outputevents.OutputEvent;
 
 import java.io.StringWriter;
 import java.util.ArrayList;

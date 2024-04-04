@@ -1,7 +1,9 @@
 package uk.co.brggs.dynamicflink.blocks;
 
-import uk.co.brggs.dynamicflink.rules.RuleType;
-import uk.co.brggs.dynamicflink.rules.conditions.AllBlocksOccurredRuleCondition;
+import dynamicflink.blocks.MatchedBlock;
+import dynamicflink.blocks.MatchedEvent;
+import dynamicflink.rules.RuleType;
+import dynamicflink.rules.conditions.AllBlocksOccurredRuleCondition;
 import lombok.val;
 import org.junit.jupiter.api.Test;
 

@@ -1,8 +1,8 @@
 package uk.co.brggs.dynamicflink.blocks.singleevent;
 
-import uk.co.brggs.dynamicflink.blocks.Block;
-import uk.co.brggs.dynamicflink.blocks.BlockType;
-import uk.co.brggs.dynamicflink.blocks.conditions.EqualCondition;
+import dynamicflink.blocks.Block;
+import dynamicflink.blocks.BlockType;
+import dynamicflink.blocks.conditions.EqualCondition;
 import lombok.val;
 import org.junit.jupiter.api.Test;
 

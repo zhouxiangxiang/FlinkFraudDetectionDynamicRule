@@ -1,15 +1,15 @@
 package uk.co.brggs.dynamicflink.integration;
 
 import uk.co.brggs.dynamicflink.TestEventGenerator;
-import uk.co.brggs.dynamicflink.blocks.Block;
-import uk.co.brggs.dynamicflink.blocks.BlockParameterKey;
-import uk.co.brggs.dynamicflink.blocks.BlockType;
-import uk.co.brggs.dynamicflink.blocks.conditions.EqualCondition;
-import uk.co.brggs.dynamicflink.control.ControlInput;
-import uk.co.brggs.dynamicflink.control.ControlInputType;
+import dynamicflink.blocks.Block;
+import dynamicflink.blocks.BlockParameterKey;
+import dynamicflink.blocks.BlockType;
+import dynamicflink.blocks.conditions.EqualCondition;
+import dynamicflink.control.ControlInput;
+import dynamicflink.control.ControlInputType;
 import uk.co.brggs.dynamicflink.integration.shared.IntegrationTestBase;
 import uk.co.brggs.dynamicflink.integration.shared.IntegrationTestCluster;
-import uk.co.brggs.dynamicflink.rules.Rule;
+import dynamicflink.rules.Rule;
 import lombok.extern.slf4j.Slf4j;
 import lombok.val;
 import org.apache.flink.shaded.jackson2.com.fasterxml.jackson.databind.ObjectMapper;

@@ -1,7 +1,10 @@
 package uk.co.brggs.dynamicflink.blocks.conditions;
 
+import dynamicflink.blocks.conditions.CompositeCondition;
+import dynamicflink.blocks.conditions.CompositeType;
+import dynamicflink.blocks.conditions.EqualCondition;
 import uk.co.brggs.dynamicflink.TestEventGenerator;
-import uk.co.brggs.dynamicflink.events.InputEvent;
+import dynamicflink.events.InputEvent;
 import lombok.val;
 import org.junit.jupiter.api.Test;
 
