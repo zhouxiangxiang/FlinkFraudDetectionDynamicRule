@@ -1,4 +1,4 @@
-package dynamicflink.blocks.singleevent;
+package dynamicflink.blocks.processor.singleevent;
 
 import dynamicflink.blocks.BlockProcessor;
 import dynamicflink.blocks.BlockType;

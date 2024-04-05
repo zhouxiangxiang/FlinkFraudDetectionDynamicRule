@@ -1,4 +1,4 @@
-package dynamicflink.blocks.threshold;
+package dynamicflink.blocks.processor.threshold;
 
 import dynamicflink.blocks.Block;
 import dynamicflink.blocks.BlockParameterKey;

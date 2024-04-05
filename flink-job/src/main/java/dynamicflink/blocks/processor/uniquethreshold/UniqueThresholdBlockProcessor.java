@@ -1,4 +1,4 @@
-package dynamicflink.blocks.uniquethreshold;
+package dynamicflink.blocks.processor.uniquethreshold;
 
 import dynamicflink.blocks.*;
 import dynamicflink.events.InputEvent;

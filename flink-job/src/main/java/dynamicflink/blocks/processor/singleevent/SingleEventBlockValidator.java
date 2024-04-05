@@ -1,4 +1,4 @@
-package dynamicflink.blocks.singleevent;
+package dynamicflink.blocks.processor.singleevent;
 
 import dynamicflink.blocks.Block;
 import lombok.val;
