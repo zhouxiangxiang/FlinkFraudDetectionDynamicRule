@@ -1,8 +1,8 @@
 package uk.co.brggs.dynamicflink.outputevents;
 
 import dynamicflink.events.DateFormatter;
-import dynamicflink.outputevents.OutputEvent;
-import dynamicflink.outputevents.OutputEventSerializationSchema;
+import dynamicflink.events.outputevents.OutputEvent;
+import dynamicflink.events.outputevents.OutputEventSerializationSchema;
 import lombok.val;
 import org.junit.jupiter.api.Test;
 

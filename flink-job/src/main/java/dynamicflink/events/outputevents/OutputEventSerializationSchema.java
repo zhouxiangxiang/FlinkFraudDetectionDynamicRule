@@ -1,9 +1,8 @@
-package dynamicflink.outputevents;
+package dynamicflink.events.outputevents;
 
 import com.jsoniter.output.JsonStream;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.flink.api.common.serialization.SerializationSchema;
-import dynamicflink.outputevents.OutputEvent;
 
 @Slf4j
 public class OutputEventSerializationSchema implements SerializationSchema<OutputEvent> {

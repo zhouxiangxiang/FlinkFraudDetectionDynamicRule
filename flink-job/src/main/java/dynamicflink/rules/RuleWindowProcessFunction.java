@@ -2,7 +2,7 @@ package dynamicflink.rules;
 
 import dynamicflink.blocks.MatchedBlock;
 import org.apache.flink.streaming.api.functions.windowing.ProcessWindowFunction;
-import dynamicflink.outputevents.OutputEvent;
+import dynamicflink.events.outputevents.OutputEvent;
 import lombok.extern.slf4j.Slf4j;
 import lombok.val;
 import org.apache.flink.api.java.tuple.Tuple;

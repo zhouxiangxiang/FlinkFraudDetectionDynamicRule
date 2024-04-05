@@ -20,7 +20,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PatternLayout;
 import org.apache.log4j.WriterAppender;
-import dynamicflink.outputevents.OutputEvent;
+import dynamicflink.events.outputevents.OutputEvent;
 
 import java.io.StringWriter;
 import java.util.ArrayList;

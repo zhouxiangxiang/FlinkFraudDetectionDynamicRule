@@ -6,7 +6,7 @@ import dynamicflink.blocks.simpleanomaly.SimpleAnomalyBlockProcessor;
 import dynamicflink.blocks.singleevent.SingleEventBlockProcessor;
 import dynamicflink.blocks.threshold.ThresholdBlockProcessor;
 import dynamicflink.blocks.uniquethreshold.UniqueThresholdBlockProcessor;
-import dynamicflink.outputevents.OutputEventSerializationSchema;
+import dynamicflink.events.outputevents.OutputEventSerializationSchema;
 import dynamicflink.control.ControlInputDeserializationSchema;
 import dynamicflink.control.ControlOutputSerializationSchema;
 import lombok.extern.slf4j.Slf4j;

@@ -11,7 +11,7 @@ import dynamicflink.control.ControlInput;
 import dynamicflink.control.ControlInputType;
 import uk.co.brggs.dynamicflink.integration.shared.IntegrationTestBase;
 import uk.co.brggs.dynamicflink.integration.shared.IntegrationTestCluster;
-import dynamicflink.outputevents.OutputEventSerializationSchema;
+import dynamicflink.events.outputevents.OutputEventSerializationSchema;
 import dynamicflink.rules.Rule;
 import dynamicflink.rules.conditions.*;
 import lombok.val;

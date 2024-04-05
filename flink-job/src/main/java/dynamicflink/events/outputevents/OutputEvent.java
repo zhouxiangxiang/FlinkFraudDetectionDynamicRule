@@ -1,4 +1,4 @@
-package dynamicflink.outputevents;
+package dynamicflink.events.outputevents;
 
 import com.jsoniter.annotation.JsonUnwrapper;
 import com.jsoniter.output.JsonStream;
@@ -8,7 +8,6 @@ import dynamicflink.events.InputEvent;
 import com.jsoniter.annotation.JsonProperty;
 import lombok.*;
 import lombok.extern.slf4j.Slf4j;
-import dynamicflink.outputevents.BlockOutput;
 
 import java.io.IOException;
 import java.util.*;

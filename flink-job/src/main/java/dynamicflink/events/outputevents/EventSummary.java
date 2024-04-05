@@ -1,4 +1,4 @@
-package dynamicflink.outputevents;
+package dynamicflink.events.outputevents;
 
 import dynamicflink.blocks.InternalEventSummary;
 import dynamicflink.events.AggregatedEvent;

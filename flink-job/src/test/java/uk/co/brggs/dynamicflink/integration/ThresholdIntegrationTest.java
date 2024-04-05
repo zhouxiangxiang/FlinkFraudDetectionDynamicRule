@@ -9,7 +9,7 @@ import dynamicflink.control.ControlInput;
 import dynamicflink.control.ControlInputType;
 import uk.co.brggs.dynamicflink.integration.shared.IntegrationTestBase;
 import uk.co.brggs.dynamicflink.integration.shared.IntegrationTestCluster;
-import dynamicflink.outputevents.OutputEvent;
+import dynamicflink.events.outputevents.OutputEvent;
 import dynamicflink.rules.Rule;
 import lombok.val;
 import lombok.var;

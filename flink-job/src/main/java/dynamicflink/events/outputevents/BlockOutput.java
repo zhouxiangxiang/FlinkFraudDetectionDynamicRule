@@ -1,9 +1,8 @@
-package dynamicflink.outputevents;
+package dynamicflink.events.outputevents;
 
 import dynamicflink.blocks.MatchedBlock;
 import dynamicflink.events.DateFormatter;
 import lombok.*;
-import dynamicflink.outputevents.EventSummary;
 
 import java.util.ArrayList;
 import java.util.Date;

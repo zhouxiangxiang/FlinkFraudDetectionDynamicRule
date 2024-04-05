@@ -8,7 +8,7 @@ import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.util.OutputTag;
 import dynamicflink.blocks.MatchedBlock;
 import dynamicflink.control.ControlOutput;
-import dynamicflink.outputevents.OutputEvent;
+import dynamicflink.events.outputevents.OutputEvent;
 import dynamicflink.control.ControlInput;
 import dynamicflink.control.ControlInputWatermarkAssigner;
 import dynamicflink.control.ControlOutputTag;
