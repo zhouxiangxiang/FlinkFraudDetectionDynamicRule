@@ -1,4 +1,4 @@
-package dynamicflink.blocks.simpleanomaly;
+package dynamicflink.blocks.processor.simple;
 
 import dynamicflink.blocks.BlockProcessor;
 import dynamicflink.blocks.BlockType;

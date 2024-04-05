@@ -2,7 +2,7 @@ package dynamicflink.blocks;
 
 import dynamicflink.blocks.conditions.Condition;
 import dynamicflink.blocks.droptozero.DropToZeroBlockValidator;
-import dynamicflink.blocks.simpleanomaly.SimpleAnomalyBlockValidator;
+import dynamicflink.blocks.processor.simple.SimpleAnomalyBlockValidator;
 import dynamicflink.blocks.processor.singleevent.SingleEventBlockValidator;
 import dynamicflink.blocks.processor.threshold.ThresholdBlockValidator;
 import dynamicflink.blocks.processor.uniquethreshold.UniqueThresholdBlockValidator;

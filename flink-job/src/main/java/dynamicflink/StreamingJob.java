@@ -2,7 +2,7 @@ package dynamicflink;
 
 import dynamicflink.blocks.BlockProcessor;
 import dynamicflink.blocks.droptozero.DropToZeroBlockProcessor;
-import dynamicflink.blocks.simpleanomaly.SimpleAnomalyBlockProcessor;
+import dynamicflink.blocks.processor.simple.SimpleAnomalyBlockProcessor;
 import dynamicflink.blocks.processor.singleevent.SingleEventBlockProcessor;
 import dynamicflink.blocks.processor.threshold.ThresholdBlockProcessor;
 import dynamicflink.blocks.processor.uniquethreshold.UniqueThresholdBlockProcessor;

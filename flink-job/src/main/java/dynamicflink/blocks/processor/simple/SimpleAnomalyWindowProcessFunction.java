@@ -1,4 +1,4 @@
-package dynamicflink.blocks.simpleanomaly;
+package dynamicflink.blocks.processor.simple;
 
 import dynamicflink.blocks.BlockParameterKey;
 import dynamicflink.blocks.MatchedBlock;
